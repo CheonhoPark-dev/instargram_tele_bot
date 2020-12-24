@@ -1,0 +1,4 @@
+telepot.py==12.7
+datetime.py==
+time.py
+threading.py
