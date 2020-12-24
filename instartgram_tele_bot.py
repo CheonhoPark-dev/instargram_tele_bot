@@ -8,7 +8,10 @@ import telepot
 import datetime
 import time
 import threading
-token = '1476866184:AAHAoEPDA9J7o9n5mjcQA-RW12epkMgnRmE'
+import os
+
+access_token = os.environ["BOT_TOKEN"]
+token = access_token
 mc = '367804458'
 bot = telepot.Bot(token)
 
